@@ -1,0 +1,7 @@
+{
+  "extends": "@naturalclar/tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src"
+  }
+}

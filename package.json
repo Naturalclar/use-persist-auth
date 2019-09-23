@@ -1,0 +1,29 @@
+{
+  "name": "use-persist-auth",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "author": "Naturalclar (https://github.com/Naturalclar)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naturalclar/use-persist-auth.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "type-check": "tsc -noEmit",
+    "prepare": "yarn build"
+  },
+  "dependencies": {
+    "react": "^16.9.0"
+  },
+  "devDependencies": {
+    "@naturalclar/tsconfig": "^0.1.0",
+    "@types/react": "^16.9.2",
+    "typescript": "^3.5.3"
+  },
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Naturalclar/use-persist-auth/issues"
+  },
+  "homepage": "https://github.com/Naturalclar/use-persist-auth#readme"
+}
